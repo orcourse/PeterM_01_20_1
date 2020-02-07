@@ -1,0 +1,303 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    margin: 5px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    background: radial-gradient(#ffffff, #941414);
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+section .block {
+    width: 100%;
+    height: 10vh;
+    background: radial-gradient(#9acbd8, #148594);
+}
+
+section .block1 {
+    display: flex;
+    height: 65vh;
+    width: 35%;
+    background: radial-gradient(#e4f9ff, #0f6b77);
+}
+
+section .block2 {
+    display: flex;
+    height: 65vh;
+    width: 65%;
+    background: radial-gradient(#e4f9ff, #0f6b77);
+}
+
+section .block4 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25vh;
+    background: radial-gradient(#e4f9ff, #0f6b77);
+}
+
+section .fon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+section .fon .block3 {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    height: 60%;
+    background: radial-gradient(#ffffff, #1caec2);
+    border-radius: 20px;
+}
+
+section .fon .block3 .passwoed_block {
+    background-color: rgb(210, 255, 255);
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 2%;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+section .fon .block3 .name_home {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+section .fon .block3 .name_signal {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px 0;
+
+}
+
+section .fon .block3 .p_password {
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+section .fon .block3 input {
+    margin-left: 10%;
+    width: 70%;
+    outline: none;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 6px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    background-color: transparent;
+    margin-bottom: 60px;
+}
+
+section .fon .block3 input:focus {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+section .fon .block3 .state_signal {
+    float: right;
+    margin-right: 3%;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+section .fon .block3 .model_signal {
+    margin-left: 3%;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+section .block2 .video_camera {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 82%;
+    background-image: url('./img.jpg');
+    border: 3px solid #17727e;
+    border-left: none;
+}
+
+section .block2 .camera_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    border-bottom: 3px solid #17727e;
+    border-top: 3px solid #17727e;
+}
+
+section .block2 .name_camera,
+section .block1 .name_cond,
+section .block4 .name_signal2 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    padding: 8px;
+    margin: 0;
+}
+
+.on,
+.off {
+    font-size: 20px;
+    outline: none;
+    width: 50%;
+    text-align: center;
+    color: rgb(11, 255, 2);
+    background: #0f6b77;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.off {
+    color: rgb(192, 51, 51);
+}
+
+section .block2 .record,
+section .block2 .live,
+section .block2 .night,
+section .block2 .day,
+section .block2 .type_camera,
+section .block2 .mode_camera,
+section .block1 .plus_temp,
+section .block1 .minus_temp {
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: #0f6b77;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section .block2 .type_camera,
+section .block2 .mode_camera {
+    color: yellow;
+    padding-top: 30px;
+    width: 30%;
+    background: transparent;
+}
+
+section .block2 .mode_camera {
+    margin-right: 250px;
+}
+
+section .block2 .name_type,
+section .block2 .name_res,
+section .block1 .name_term {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    padding: 7px;
+    margin: 0;
+}
+
+section .block2 .model_camera,
+section .block1 .model_cond,
+section .block4 .model_signal2,
+.term_ravna {
+    position: relative;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+}
+
+.term_ravna {
+    padding: 4px;
+}
+
+section .block1 .model_cond {
+    margin: auto 0 0 0;
+}
+
+section .block1 .cond_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 82%;
+    border: 3px solid #17727e;
+    border-left: none;
+}
+
+section .block1 .term_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+    border: 3px solid #17727e;
+    border-left: none;
+}
+
+section .block1 .plus_temp {
+    height: 40px;
+    color: rgb(192, 51, 51);
+    font-size: 25px;
+}
+
+section .block1 .minus_temp {
+    height: 40px;
+    color: rgb(26, 116, 201);
+    font-size: 25px;
+}
+
+.signaling_block {
+    margin-top: 15vh;
+    margin-right: 2%;
+}
+
+.passwoed_block2 {
+    max-width: 300px;
+}
+
+section .block4 .model_signal2 {
+    top: 26px;
+}
+
+section .block4 .on,
+section .block4 .off {
+    width: 90px;
+    margin-left: 30px;
+    margin-bottom: 17px;
+}
+
+section .block4 .off {
+    color: rgb(11, 255, 2);
+}
+
+section .block4 .on {
+    color: rgb(192, 51, 51);
+}
+
+.div_term i {
+    font-size: 300px;
+}
